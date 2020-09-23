@@ -14,6 +14,9 @@
 		
 	</head>
 	<body>
+		<section class="logo no-padding">
+			<img src="images/logo.png" alt="Kotak Logo">
+		</section>
 		<section class="banner center-cropped">
 			<div class="content">
 				<h2>Invest directly in global markets with Kotak Securities!</h2>
@@ -603,10 +606,29 @@
 			</div>
 			
 		</section>
-
+		<!-- <a href="#top">
+			<i class="fa fa-angle-up"></i> 
+		</a> -->
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script>
+			var mybutton = document.getElementById("myBtn");
+			window.onscroll = function() {scrollFunction()};
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			    mybutton.style.display = "block";
+			  } else {
+			    mybutton.style.display = "none";
+			  }
+			}
+			function topFunction() {
+			  document.body.scrollTop = 0;
+			  document.documentElement.scrollTop = 0;
+			}
+		</script>
 		
 	</body>
 </html>
