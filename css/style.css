@@ -76,3 +76,4 @@ ul, ol { list-style: none; margin: 0; padding: 0;}
 	.subs-plan .subs_content ul li {    font-size: 26px!important;}
 }
 @media (min-width: 768px){.container, .container-md, .container-sm {  max-width: 900px!important;}}
+@media (min-width: 1200px){.container, .container-lg, .container-md, .container-sm, .container-xl { max-width: 1140px!important;}}
